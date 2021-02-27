@@ -1,4 +1,6 @@
+import React from 'react';
 import './App.css';
+import Bottom from './Bottom';
 import Intro from './Intro';
 import Navi from './Navi';
 
@@ -7,6 +9,7 @@ function App() {
     <div className="App">
       <Navi/>
       <Intro/>
+      <Bottom/>
     </div>
   );
 }
