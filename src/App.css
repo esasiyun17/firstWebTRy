@@ -136,6 +136,7 @@ nav {
 }
 .header{
     color: #e76148;
+    text-decoration: underline;
 }
 
 .paragraf{
@@ -150,6 +151,7 @@ nav {
     color:#fff;
     margin-left: 22rem;
     font-size: 5rem;
+    letter-spacing: 5px;    
 }
 
 .surname{
@@ -157,6 +159,7 @@ nav {
     margin-left:26rem;
     font-size: 5rem;
     margin-top: -2rem;
+    letter-spacing: 5px; 
 }
 
 .bottom{
@@ -168,8 +171,66 @@ nav {
 
 .about-me{
     color:#e76148 ;
+    text-decoration: underline;
 }
 
 .philosophy{
+    color: #fff;
+}
+
+.author{
+    color: #fff;
+}
+
+.personal-info{
+    width: 25rem;
+    height: 15rem;
+    position: relative;
+    margin-left: 15rem;
+    padding-top: 5rem;
+}
+
+.about-me-paragraf{
+    color:#9c9c9c ;
+}
+
+.discuss{
+    
+    position: relative;
+    width: 19rem;
+    color: #fff;
+    margin-top: -17rem;
+    padding-top: -2rem;
+    margin-left: 40rem;
+    border-left: 1px solid #e76148;
+}
+
+
+.skills{
+    color: #e76148;
+    list-style: none;
+    text-decoration: underline;
+    padding-left: 2.5rem;
+}
+
+.skill-list{
+    list-style: none;
+    font-size: 1.3rem;
+}
+.skill-list>li{
+    padding-top: 3px;
+}
+
+.footer{
+    background-color: #222222;
+    height: 3rem;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.rota{
     color: #fff;
 }
