@@ -7,6 +7,7 @@ import Navi from "./Navi";
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import Contact from "./Contact";
 
+
 function App() {
   return (
     <Router>
@@ -15,6 +16,7 @@ function App() {
         <Switch>
           <Route path="/contact">
             <Contact />
+            
           </Route>
           <Route exact path="/">
             <Intro />

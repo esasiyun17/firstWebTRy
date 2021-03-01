@@ -2,17 +2,20 @@ nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
-    margin-top: 4rem;
+    margin-top: 4%;
     display: inline-block;
+    width: 100%;
+}
+.navbar-div{
+    
 }
 .links{
-    padding-left: 55%;
+    text-align: center;
 }
 .navbar-link{
     text-decoration: none;
     color: #8a8a8a;
-    margin-left: 4rem;
+    margin-left: 4em;
     font-size: 20px;
     
 }
@@ -23,9 +26,13 @@ nav {
 .bi-shield-fill-check{
     color: #b25943;
     float:left;
-    margin-left: 10rem;
+    margin-left: 10em;
     width: 2em;
     height: 2em;
+}
+
+.search-icon{
+    padding-right: 20%;
 }
 
 .bi-shield-fill-check:hover{
@@ -40,74 +47,16 @@ nav {
     border-radius: 50%;
     
 }
-
-
-.searchBox {
-    position: absolute;
-    top: 2.8%;
-    left: 75%;
-    transform:  translate(-50%,50%);
-    background: #2f3640;
-    height: 40px;
-    border-radius: 40px;
-    padding: 10px;
-
-}
-
-.searchBox:hover > .searchInput {
-    width: 240px;
-    padding: 0 6px;
-}
-
-.searchBox:hover > .searchButton {
-  background: white;
-  color : #2f3640;
-}
-
-.searchButton {
-    color: white;
-    float: right;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: #2f3640;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.4s;
-}
-
-.searchInput {
-    border:none;
-    background: none;
-    outline:none;
-    float:left;
-    padding: 0;
-    color: white;
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 40px;
-    width: 0px;
-
-}
-
-@media screen and (max-width: 620px) {
-.searchBox:hover > .searchInput {
-    width: 150px;
-    padding: 0 6px;
-}
-}
-
 .intro{
     height: 400px;
 }
 
 .circle{
-    width: 3rem;
-    height: 3rem;
+    width: 3em;
+    height: 3em;
     background: #00ffbb;
-    margin-left: 59rem;
-    margin-top: 10rem;
+    margin-left: 59em;
+    margin-top: 10em;
     border-radius: 50%;
 
 }
@@ -119,8 +68,8 @@ nav {
     border-top: 80px solid transparent;
     border-bottom: 80px solid transparent;
     border-left: 80px solid #2f2f2f;
-    margin-left: 56rem;
-    margin-top: -12rem;
+    margin-left: 56em;
+    margin-top: -12em;
     transform: rotate(-110deg);
   }
   
@@ -130,8 +79,8 @@ nav {
     position: absolute;
     background-color: #222222;
     color: #fff;
-    margin-left: 56rem;
-    margin-top: 8rem;
+    margin-left: 56em;
+    margin-top: 8em;
     
 }
 .header{
@@ -149,23 +98,22 @@ nav {
 
 .name{
     color:#fff;
-    margin-left: 22rem;
-    font-size: 5rem;
+    margin-left: 4em;
+    font-size: 5em;
     letter-spacing: 5px;    
 }
 
 .surname{
     color: #fff;
-    margin-left:26rem;
-    font-size: 5rem;
-    margin-top: -2rem;
+    margin-left:5em;
+    font-size: 5em;
     letter-spacing: 5px; 
 }
 
 .bottom{
-    margin-top: 5rem;
+    margin-top: 5em;
     width: 100%;
-    height: 30rem;
+    height: 30em;
     background-color: #1f1f1f;
 }
 
@@ -183,11 +131,11 @@ nav {
 }
 
 .personal-info{
-    width: 25rem;
-    height: 15rem;
+    width: 25em;
+    height: 15em;
     position: relative;
-    margin-left: 15rem;
-    padding-top: 5rem;
+    margin-left: 15em;
+    padding-top: 5em;
 }
 
 .about-me-paragraf{
@@ -197,11 +145,11 @@ nav {
 .discuss{
     
     position: relative;
-    width: 19rem;
+    width: 19em;
     color: #fff;
-    margin-top: -17rem;
-    padding-top: -2rem;
-    margin-left: 40rem;
+    margin-top: -17em;
+    padding-top: -2em;
+    margin-left: 40em;
     border-left: 1px solid #e76148;
 }
 
@@ -210,12 +158,12 @@ nav {
     color: #e76148;
     list-style: none;
     text-decoration: underline;
-    padding-left: 2.5rem;
+    padding-left: 2.5em;
 }
 
 .skill-list{
     list-style: none;
-    font-size: 1.3rem;
+    font-size: 1.3em;
 }
 .skill-list>li{
     padding-top: 3px;
@@ -223,14 +171,66 @@ nav {
 
 .footer{
     background-color: #222222;
-    height: 3rem;
-    width: 100%;
-    color: #fff;
-    font-size: 1rem;
-    text-align: center;
-    margin-top: 6rem;
+    height: 4em;
+    width: 100%; 
+    
+}
+
+.footer>p{
+    color: #9c9c9c;
+    font-size: 1em;
+    margin-top: 4%;
+    margin-left: 40%;
+    padding-bottom: 5px;
 }
 
 .rota{
     color: #fff;
+}
+
+.container{
+    position: relative;
+    margin-left: 37%;
+    margin-top: 8%;
+
+}
+
+.text-area{
+    margin-top: 1em;
+    width: 25em;
+    height: 5em;
+}
+
+.form-control{
+    margin-top: 1em;
+    width: 25em;
+    height: 2em;
+    border-radius: 5px;
+    box-shadow:#767676 ;
+}
+
+.btn-info{
+    background-color:#e76148 ;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.contact-header{
+    color:#e76148 ;
+    text-decoration: underline;
+}
+.social-links{
+    margin-left: 36%;
+    margin-top: 3%;
+}
+
+.social-links>a{
+    color: #fff;
+    margin-left: 5em;
+}
+
+
+
+.social-links>a:hover{
+    color : #e76148;
 }

@@ -26,7 +26,9 @@ export default function Contact() {
   return (
     <div>
       <div className="container">
+        
         <form onSubmit={sendEmail}>
+        <h5 className="contact-header">Contact</h5>
           <div className="col-8 form-group mx-auto">
             <input
               type="text"
@@ -53,7 +55,7 @@ export default function Contact() {
           </div>
           <div className="col-8 form-group pt-2 mx-auto">
             <textarea
-              className="form-control"
+              className="text-area"
               id=""
               cols="30"
               rows="8"
@@ -62,7 +64,7 @@ export default function Contact() {
             ></textarea>
           </div>
           <div className="col-8 pt-3 mx-auto">
-            <input type="submit" className="btn btn-info" name="Send Message" />
+            <input type="submit" className="btn btn-info form-control" name="Send Message" />
           </div>
         </form>
       </div>
